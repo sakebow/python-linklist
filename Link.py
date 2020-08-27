@@ -1,4 +1,5 @@
 from Node import *
+import random
 # 链表
 class Link:
   # 初始化 / 不需要参数，自带空的头节点
@@ -47,8 +48,8 @@ class Link:
     pass
   
   # 随机生成链表
-  def random_link(self):
-    size = random.randint(0, 20)
+  def random_link(self, n):
+    size = random.randint(0, n)
     for i in range(0, size):
       self.insert_tail(i + 1, LETTERS[random.randint(0, LETTERS_LEN - 1)])
       pass

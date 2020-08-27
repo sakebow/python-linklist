@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-import random
 from Link import *
 
 LETTERS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
